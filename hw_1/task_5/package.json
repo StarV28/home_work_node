@@ -1,0 +1,15 @@
+{
+  "name": "task_5",
+  "version": "1.0.0",
+  "description": "Home work task 5",
+  "main": "app.mjs",
+  "scripts": {
+    "dev": "nodemon app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Volodymyr S",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
