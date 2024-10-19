@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="page">
+        <h1><%= title %></h1>
+        <div class="page__container">
+          <form action="post" class="page__form form">
+            <div class="form__inp">
+              <label for="namePr">Pleas enter name product</label>
+              <input type="text" name="namePr" placeholder="Name" autocapitalize="off" />
+            </div>
+            <div class="form__inp">
+              <label for="pricePr">Pleas enter price product</label>
+              <input type="number" name="pricePr" placeholder="Name" autocapitalize="off" />
+            </div>
+            <div class="form__inp">
+              <label for="descriptionPr">Pleas enter description product</label>
+              <textarea
+                name="descriptionPr"
+                placeholder="Description"
+                id=""
+                rows="5"
+                cols="50"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
